@@ -30,6 +30,9 @@ namespace TT
             LoginService.F(user);
             LoginService.G(user);
             LoginService.H(user);
+            LoginService.F(user);
+            LoginService.G(user);
+            LoginService.H(user);
             RegisterService service = new RegisterService();
             service.Regist(user);
 
