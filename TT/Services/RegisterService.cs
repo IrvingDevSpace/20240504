@@ -7,10 +7,18 @@ namespace TT.Services
         public bool CheckAccountIsExist(User user)
         {
             if (user.Account == "Leo" && user.Password == "1234")
-                return false;
+                return true;
 
-            return true;
+            return false;
             
+        }
+
+        public void Regist(User user)
+        {
+            if (!CheckAccountIsExist(user))
+            {
+                // 註冊帳號
+            }
         }
     }
 }
