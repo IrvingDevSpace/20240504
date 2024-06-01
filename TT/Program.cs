@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using TT.Models;
+using TT.Services;
 
 namespace TT
 {
@@ -21,7 +22,10 @@ namespace TT
             String Password = Console.ReadLine();
 
             User user = new User(Name, Address, Account, Password);
-            
+            RegisterService service = new RegisterService();
+            service.Regist(user);
+
+            Console.ReadKey();
         }
     }
 }
