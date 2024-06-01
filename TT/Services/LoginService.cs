@@ -25,7 +25,7 @@ namespace TT.Services
             return true;
         }
 
-        public bool CheckHelloWordIsExist(User user)
+        public static bool CheckHelloWordIsExist(User user)
         {
             if (user.Account == "Hello World" && user.Password == "789")
                 return true;
@@ -33,7 +33,7 @@ namespace TT.Services
 
         }
 
-        public void LoginHelloWorld(User user)
+        public static void LoginHelloWorld(User user)
         {
             if (!CheckHelloWordIsExist(user))
             {
@@ -42,19 +42,19 @@ namespace TT.Services
             }
         }
 
-        public void Html(User user)
+        public static void Html(User user)
         {
             if (user.Name == "RickRoll")
                 Console.WriteLine("Fxck off");
         }
 
-        public void GIDLE(User user)
+        public static void GIDLE(User user)
         {
             if (user.Name == "Wife")
                 Console.WriteLine("Cream Soup");
         }
 
-        public void A(User user)
+        public static void A(User user)
         {
             if (!CheckHelloWordIsExist(user))
             {
@@ -63,19 +63,19 @@ namespace TT.Services
             }
         }
 
-        public void B(User user)
+        public static void B(User user)
         {
             if (user.Name == "RickRoll")
                 Console.WriteLine("Fxck off");
         }
 
-        public void C(User user)
+        public static void C(User user)
         {
             if (user.Name == "Wife")
                 Console.WriteLine("Cream Soup");
         }
 
-        public void D(User user)
+        public static void D(User user)
         {
             if (!CheckHelloWordIsExist(user))
             {
@@ -84,19 +84,19 @@ namespace TT.Services
             }
         }
 
-        public void E(User user)
+        public static void E(User user)
         {
             if (user.Name == "RickRoll")
                 Console.WriteLine("Fxck off");
         }
 
-        public void F(User user)
+        public static void F(User user)
         {
             if (user.Name == "Wife")
                 Console.WriteLine("Cream Soup");
         }
 
-        public void G(User user)
+        public static void G(User user)
         {
             if (!CheckHelloWordIsExist(user))
             {
@@ -105,19 +105,19 @@ namespace TT.Services
             }
         }
 
-        public void H(User user)
+        public static void H(User user)
         {
             if (user.Name == "RickRoll")
                 Console.WriteLine("Fxck off");
         }
 
-        public void I(User user)
+        public static void I(User user)
         {
             if (user.Name == "Wife")
                 Console.WriteLine("Cream Soup");
         }
 
-        public void J(User user)
+        public static void J(User user)
         {
             if (!CheckHelloWordIsExist(user))
             {
@@ -126,19 +126,19 @@ namespace TT.Services
             }
         }
 
-        public void K(User user)
+        public static void K(User user)
         {
             if (user.Name == "RickRoll")
                 Console.WriteLine("Fxck off");
         }
 
-        public void L(User user)
+        public static void L(User user)
         {
             if (user.Name == "Wife")
                 Console.WriteLine("Cream Soup");
         }
 
-        public void M(User user)
+        public static void M(User user)
         {
             if (!CheckHelloWordIsExist(user))
             {
@@ -147,13 +147,13 @@ namespace TT.Services
             }
         }
 
-        public void N(User user)
+        public static void N(User user)
         {
             if (user.Name == "RickRoll")
                 Console.WriteLine("Fxck off");
         }
 
-        public void O(User user)
+        public static void O(User user)
         {
             if (user.Name == "Wife")
                 Console.WriteLine("Cream Soup");

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using TT.Models;
+using TT.Services;
 
 namespace TT
 {
@@ -21,7 +22,14 @@ namespace TT
             String Password = Console.ReadLine();
 
             User user = new User(Name, Address, Account, Password);
-            
+            LoginService.A(user);
+            LoginService.B(user);
+            LoginService.C(user);
+            LoginService.D(user);
+            LoginService.E(user);
+            LoginService.F(user);
+            LoginService.G(user);
+            LoginService.H(user);
         }
     }
 }
