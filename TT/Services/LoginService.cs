@@ -116,5 +116,26 @@ namespace TT.Services
             if (user.Name == "Wife")
                 Console.WriteLine("Cream Soup");
         }
+
+        public void J(User user)
+        {
+            if (!CheckHelloWordIsExist(user))
+            {
+                // 註冊帳號
+                Console.WriteLine("Coco Loco");
+            }
+        }
+
+        public void K(User user)
+        {
+            if (user.Name == "RickRoll")
+                Console.WriteLine("Fxck off");
+        }
+
+        public void L(User user)
+        {
+            if (user.Name == "Wife")
+                Console.WriteLine("Cream Soup");
+        }
     }
 }
