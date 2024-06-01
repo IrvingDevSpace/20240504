@@ -24,5 +24,34 @@ namespace TT.Services
                 return false;
             return true;
         }
+
+        public bool CheckHelloWordIsExist(User user)
+        {
+            if (user.Account == "Hello World" && user.Password == "789")
+                return true;
+            return false;
+
+        }
+
+        public void LoginHelloWorld(User user)
+        {
+            if (!CheckHelloWordIsExist(user))
+            {
+                // 註冊帳號
+                Console.WriteLine("Coco Loco");
+            }
+        }
+
+        public void Html(User user)
+        {
+            if (user.Name == "RickRoll")
+                Console.WriteLine("Fxck off");
+        }
+
+        public void GIDLE(User user)
+        {
+            if (user.Name == "Wife")
+                Console.WriteLine("Cream Soup");
+        }
     }
 }
